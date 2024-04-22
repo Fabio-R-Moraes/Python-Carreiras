@@ -15,9 +15,7 @@
       <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsam earum cum eum laudantium saepe, libero natus perferendis ut voluptatem officia totam ad repellat minima rerum omnis optio. Esse, quas.</p>
       <h2 class="text-center">Vagas Abertas</h2>
       <p>
-        {% for registro in vagas %}
-          {% include "partials/vagas_item.html" %}
-        {% endfor %}
+        
       </p>
       <div class="text-center">
         <button class="btn btn-primary btn-lg">Entrar em contato</button>
